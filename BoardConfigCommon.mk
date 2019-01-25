@@ -20,3 +20,6 @@ LOCAL_PATH := device/samsung/j5-common
 
 # Include board config fragments
 include $(LOCAL_PATH)/board/*.mk
+
+# Compile libhwui in performance mode
+HWUI_COMPILE_FOR_PERF := true
